@@ -2,24 +2,24 @@ POST http://localhost:3333/videos
 content-type: application/json
 
 {
-    "title": "Video node",
+    "title": "estudo",
     "description": "Video de Node.js",
-    "duration": 90
+    "duration": 30
 }
 
 ###
-GET http://localhost:3333/videos?search=node
+GET http://localhost:3333/videos
 
 ###
-PUT http://localhost:3333/videos/0c4cd4c7-2069-47da-b711-bea7b2d3c0fa
+PUT http://localhost:3333/videos/9e58d8d5-365b-43e0-a280-a7467e7f2067
 content-type: application/json
 
 {
-    "title": "Video 02",
-    "description": "Video de React.js",
-    "duration": 180
+    "title": "Video Node.js",
+    "description": "Aula de como comecar no Node.js",
+    "duration": 121
 }
 
 ###
 
-DELETE  http://localhost:3333/videos/1e6d2d79-dfd6-4c6f-9c4c-c3b33a542085
+DELETE  http://localhost:3333/videos/5a0f851c-2be7-4bc6-8433-260563607bec
